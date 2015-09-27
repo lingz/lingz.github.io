@@ -1,0 +1,394 @@
+darkerblack = #7C7C7C
+lighterblack = #6C6C6C
+lightestGray = #CFCFCF
+evenLighterGray = #EDEDED
+blue = #81A8C5
+
+body
+  font-family: Lato
+  color: blue
+  height 100%
+  margin 0
+  -webkit-font-smoothing: subpixel-antialiased
+
+html
+  height 100%
+  
+.clear
+  clear both
+
+ul
+  list-style-type: none
+
+a
+  text-decoration: none
+
+li
+  cursor pointer
+
+//Mode select screen
+#selectMode
+  height 50%
+  margin auto
+  position absolute
+  top 0
+  bottom 0
+  right 0
+  left 0
+  text-align center
+  #modeSelectTitle
+    font-weight 300
+    font-size 3em
+  .modeSelectButton
+    margin 60px 40px
+    display inline-block
+  .modeLabel
+    font-size 1.3em
+  .circularPhoto
+    transition: all 0.2s ease-out;
+
+
+.circularPhoto
+  height:200px
+
+.circular
+  overflow: hidden
+  border-radius: 100%
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+
+//Project title
+h2
+  font-family: Lato
+  margin: -10px
+  font-size 3em
+  font-weight: 700
+
+//Subheading for Project titles
+h3
+  margin: 0px 0px 0px 0px
+  font-size: 1.2em
+  font-weight: 300
+  color lighterblack
+  margin-bottom 30px
+
+//For "Skills" "contact" etc headers inside projects
+h4
+  margin: 30px 0px 8px 0px
+  font-weight: 600
+  font-size 1.4em
+  
+h5
+  margin: 0px
+  font-weight: 300
+
+p
+  font-weight: 300
+  color: lighterblack
+
+table
+  margin-left auto
+  margin-right auto
+
+//******GENERAL USE STYLING******//
+
+
+
+//***Home Button***//
+#homeButton
+  cursor: pointer
+  position fixed
+  top -7px
+  padding 10px
+  border-radius 7px
+  background-color evenLighterGray
+  transition: color 0.2s linear;
+  font-size 0.8em
+  a
+    color white
+    &:hover
+      color lighterblack
+    
+#homeIcon
+  font-size 3em
+#homeText
+  font-weight 300
+  margin-top -5px
+  
+
+//******FOR THE PROJECTS MENU******//
+.pull-menu
+  position: fixed
+  top 17%
+  transition: margin padding background-color 0.2s linear;
+
+#showmenu
+  cursor pointer 
+  transition: all 0.2s linear;
+  margin-top -40px
+  position: fixed
+  height 40px
+  width 50px
+  background-color darkerblack
+  top 0
+  z-index 1000
+  &:hover
+    background-color lighterblack
+  #menuBar
+    color white
+    font-size 1.6em
+    padding-left 13px
+    padding-top 6px
+    
+.menuList
+  padding: 0px
+  margin-top 40px
+
+#menuLingHeading
+  font-size 1.7em
+  font-weight 300
+  top 15%
+  .active
+    color blue
+  a
+    &:hover
+      color blue
+  
+#projectHeading
+  color blue
+  margin-bottom 10px
+  font-weight 300
+  font-size 1.2em
+
+a
+  color lightestGray
+  font-weight 300
+  line-height 1.8em
+  font-size 1.1em
+  transition: color 0.1s linear;
+  &:hover
+    color #9D9D9D
+  &.active
+    color darkerblack 
+
+//position set to absolute so doesnt cause problems when we set display to none
+#projectMenuCirlce
+  opacity 0
+  position: absolute;
+  background-color: blue;
+  border-radius: 50%;
+  width: 10px;
+  height:10px;
+  transition: all 0.2s ease-out;
+  
+.projectDetail
+  padding-left 20%
+  text-align center
+  min-height 600px
+  transition: all 0.2s linear;
+  .bottomMargin
+    margin-bottom 40px
+  img
+    margin 10px 0px
+  
+#projectsFooter
+  max-width 900px
+  margin-left auto
+  margin-right auto
+  padding 0px 30px
+  padding-bottom 50px
+  margin-top 40px
+  margin-bottom 50px
+  padding-top 20px
+  border-top: 1px solid evenLighterGray;
+  color lighterblack
+  font-weight 300
+  i
+    margin-right 10px
+  a
+    font-size 1em
+    color darkerblack
+    :&hover
+      color darkerblack
+    text-decoration none
+
+
+//****FOR PROJECTS*****//
+.aboutMenu 
+  border 1px solid evenLighterGray
+  padding 40px 30px
+  border-radius 20px
+  a
+    text-decoration none
+    line-height normal
+    font-size inherit
+    color lighterblack
+#projectElements
+  max-width: 1000px
+  margin-left: auto
+  margin-right: auto
+  padding: 30px 40px
+
+.blue
+  color blue
+
+.circularPhotoSmall
+  height:150px
+  border-radius: 50%
+
+//thin line to be placed between projects for MISC
+.dividerLine
+  border-top: 1px solid evenLighterGray
+  margin 60px
+
+//When we dont want text etc to span the whole width of project display area
+.narrowSection
+  max-width: 700px
+  margin-right auto
+  margin-left auto
+  margin-top 30px
+  margin-bottom 30px
+  &.mainCaption
+    //nothing right now
+    margin-top 30px
+    
+.smallMargin
+  margin 5px 0px
+  
+td
+  width 500px
+  color lighterblack
+  font-weight 300
+#skills
+  td
+    width 180px
+.skillsTable
+  td
+    padding-bottom: 10px
+
+#DiplomatLayout
+  .halfWidth
+    width 49%
+//*****FOR IMAGE MANIPULATION FOR PROJECT DETAILS*****//
+.left
+  float left
+
+.right
+  float right
+
+.fullWidth
+  width 100%
+
+.halfWidth
+  width 48%
+  display inline-block
+
+.thirdWidth
+  width 31%
+  display inline-block
+
+.thinBorder
+  border-style solid
+  border-color lightestGray
+  border-width 1px
+
+.center
+  margin 15px 0px
+  display flex
+  justify-content center
+
+//our buttons for accessing code, page, etc
+.button
+  border 1px solid lightestGray
+  border-radius 5px
+  text-decoration: none
+  color lightestGray
+  padding 10px 20px
+  margin 0 10px
+  transition: color 0.1s linear;
+  &:hover
+    color darkerblack
+    border-color darkerblack
+  i
+    margin-right 8px
+  
+
+//WHALE//
+.fixed
+  position: fixed
+  top: 20px
+  margin-right 20%
+  background-color: #0f0 ! important
+  
+#whale{
+  width:100%;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  -webkit-animation: whaleAni 5s linear 0s infinite alternate-reverse; /* Chrome, Safari, Opera */
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes whaleAni {
+    0%   {left:0px; bottom:0px;}
+    25%  {left:-20px; bottom:-20px;}
+    50%  {left:-50px; bottom:-25px;}
+    75%  {left:-30px; bottom:-30px;}
+    100% {left:-20px; bottom:-10px;}
+}
+
+@media screen and (max-width: 900px)
+  a
+    &.active
+      color blue
+  .projectDetail
+    padding-left 0
+  #projectHeading
+    display none
+  .pull-menu
+    margin-left -170px
+    &.active
+      margin-top -30px
+      height 100%
+      top 0px
+      padding-top 120px
+      background-color #414141
+      margin-left -40px
+      padding-right 30px
+      padding-left 15px
+  #showmenu
+    margin-top 0px
+  #projectsFooter
+    text-align center
+    margin-bottom 50px
+    margin-top 30px
+    .left
+      float none
+    .right
+      float none
+  #projectMenuCirlce
+    display none
+  #homeButton
+    top 60px
+    background-color transparent
+    padding 0
+    margin 0
+  #homeIcon
+    color lightestGray
+    font-size 2em
+    &:hover
+      color darkerblack
+
+@media screen and (max-width: 600px)
+  #projectElements
+    padding 30px 10px
+  .pull-menu
+    &.active
+      margin-left -10px
+@media screen and (max-width: 400px)
+  .button
+    &.double
+      font-size 0.9em
+      padding 5px
