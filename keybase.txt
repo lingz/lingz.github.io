@@ -6,18 +6,18 @@ I hereby claim:
 
   * I am an admin of http://lingliang.me
   * I am lingz (https://keybase.io/lingz) on keybase.
-  * I have a public key with fingerprint 03E9 A769 6071 EF34 1954  8EBF A6FE E68A AB1B BE34
+  * I have a public key with fingerprint 3251 207D 8C86 37FA FE2B  1417 839B 60DA D77F 4BD7
 
 To do so, I am signing this object:
 
 {
     "body": {
         "key": {
-            "eldest_kid": "012021e5c9af95a9c8509442d5d5adbec497ca0b68a3c2b44553796cc25c407b1d020a",
-            "fingerprint": "03e9a7696071ef3419548ebfa6fee68aab1bbe34",
+            "eldest_kid": "0120a21f1543eda72c585975dfe950871dde0b5758ab969a833b653bae7439a333860a",
+            "fingerprint": "3251207d8c8637fafe2b1417839b60dad77f4bd7",
             "host": "keybase.io",
-            "key_id": "a6fee68aab1bbe34",
-            "kid": "0101953f305e723eeb922a8192027a95d7a29a3e77accb54b9a5b0644574e18869320a",
+            "key_id": "839b60dad77f4bd7",
+            "kid": "0101cc37cba3181eadb31e30bbaffb77f153d1cfcde394a43c66925e06a105fcf34f0a",
             "uid": "79bf3f35023b920d03de331244ad8919",
             "username": "lingz"
         },
@@ -28,10 +28,10 @@ To do so, I am signing this object:
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1467761847,
+    "ctime": 1467832852,
     "expire_in": 157680000,
-    "prev": "a2cd6a770c0828d66ac338e7c9bd4bae877593803dad471d453a944056fe750d",
-    "seqno": 31,
+    "prev": "96a11ad070d2ad91394fb2d08a49493783b09ed36eb773209a4407ec9de3ce48",
+    "seqno": 52,
     "tag": "signature"
 }
 
@@ -40,30 +40,19 @@ which yields the signature:
 -----BEGIN PGP MESSAGE-----
 Version: GnuPG v1
 
-owFtkn1QFGUcx49D0RjFKw6VAKdZJkoOmX15dp/dayYlCQUPZwRRSfN4dve5Y4P2
-rrsDojs0h1BeQjGQjICByWHiLUgHhzRj/MMJY3hLpsIpTXIYCzGg0nLUaZdypj/a
-f3ae5/l+P/v9/vapWRlsMAa1PZqu7Iz6AgQN/SwadgeSP/MToksuJqx+Ig8vvnC+
-jL0+e54iE1aCpGiSpjArCcghsEiQeJYUAKBlVmaRLGIJCFBCpMjxiJFoEQCWZaDA
-SRLNSoCEIiWTNImIBMKhqE7scXsU1adjGSwgyAkcCSnsYAAlsIDHogNxDow1FhIp
-UcQM0Iy5Lq/u0MKJyIsTFZe2py3si/H+R/84N6kxGQdDshjSDMaiQNOIpwStDkQC
-K0NEC4jBECJJElkgCogVSU7LDwGmeJ4TmH9yFyzioCA6NBhL0owGImWSkTHDUDQA
-SOYFStCFXuxR0etYU+drXd8iShIIbatQkbA+Vb3Gf47zFaQ6E7VlAuH2uHwuyZWv
-neT6fG6rbvQVu3VlERbt/zLsoqLKmlEzFGKPV3GphJXSlJJP0aEU4CDkKB7ABAK/
-6VY82K7oChZyPKk9+mdwoT4xWpI5BCEpkVk8zcschySG4TGUBFEGIsI8hKzA8FpD
-JANIyYBlkPbHSVYbNWRJmdBrvaG6CCtDaUGRU4N6FaeKfAUeTJSEVhijlxiCjIaQ
-pUb9ehlCnzA9vnPqyybD8U8jqMk10+dfeyqC2C+c3rkqPXYsFYzHP9MVeutIg9Rj
-i497oSS2bzPe2jYYkzjpnLVz395ruNbDZzSfnL8dfeb6DrUprNT4g+fu70pyeN5C
-waEHIzXd4xuOZ8s3hI+644YDU889HXcg+uzBIWV+9uo0tzonEsz1nmAu1D48eOCl
-T9YPBAaOCVvf7iz7pmhqLvNP8nDranPSlXeT2BPpliCxH5TV5K5yHvUPVDRmVmwp
-3bGvvbZz8x/HTm2v6VqbEy5JF63jVP+DywOd89MfvhLYZImozBJTm9pL33uYXZqV
-8UHJ2HAK5UwbXAJ6Y/ssp/tNmbl/GWI+rsgwp6+KdJ1rv3NvTHKCPlOeJeydSH/b
-zX2WCFhuqO9bk5Wsnr1yPX5byKmunStylN829piH+tbtqq3+cSHrK2n9hG2YMxuX
-5XQ3xlcVXrKVjzy5tuOnNPdQi3f55fr27hfL3XbLd/cPuVLnyJqT95tvFI/Gn+tt
-jilrOTxxlVrXWru3yZR5NLvFE1rVtvdM8Pd3BkvLv64T97Qok/Vf1t1ctsc6FfKr
-67b5c3PZs4HdYSvGi0taN7Z0qjmNs8H+kaTwlFFmaW51w6X9jb+EvH+3cmZX9fbn
-YyceXbTfiirqspA244LX1NYRvMHGnI/aFrD50zpWWlNGZ5D51eCwTcVV10yzR5Yz
-F7bM1LX+DQ==
-=QIur
+owFtUr9rFEEU3hiVJKgYREw9leBxzOyb2Zk5EQTtRVAEixzz481lybl77m5OY4xo
+IxYWYrQVC0EQLGLjP2AnVlZWIgoSrQyCjb9mDwULpxnee9/3vfc93p2908nM/OZw
+68S+G/ceTr3cssm59fMLa8SWfpX01sgyTj4ceqyb/nLuSY9QllKTssAEB/RGpk4o
+oaXwAbWgSjLvkVohhTJWZ9ooAJsJsAYlB20AQGXUkA4JeTHAalTlRRNlIRVRWHrl
+VAYymICpZZxJBdpm1BsvZeDWy0hcKuuWEYezpsZuXsZcDPqT8f6D/zs3Zc6BdNYA
+UwyNt8AQqLUmBBvRTIBnLjiPoLnh4LJMpwJpZhgVwQXgYTL3ykROahsggKApWJ1S
+TyHygKWcG6800y2wxqowFzCih9HrFbLeITE1zh22W21t/FMe5qYYdGPYIaOqbEpX
+DmNlqWlGvZbYrI5a5CW0/T8afZsXPhIjYYxVnZcF6bGIdE3eijKexeWlSqQdgpdH
+eYX9vEUImSkaX9sGx1FSR4PMeCqpP5sar1m0H2zqqTJccw1RxVKNHjKMa4KUasM5
+leh0dOyQK9LauliUpNf2aswgitb5oDDNSoVkfe7W4s5kfibZvWtHe13J3Oz+vyd3
++HHy69T1+9fg4Icfe15dnf24sP12c3x64/Xx7uenz75t3/3Z3JxKHky/O3R7+GnO
+PnnTPfq9nj3w5diLI4+qM1/fd07OLz7f+A0=
+=uE1c
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
