@@ -55,5 +55,3 @@ Optional StylusCompiler folder is added.  Running ```grunt watch``` in the direc
 
 Only using reactify may not suffice since react-router is an additional component.  Instead watchify can be used.
 ```watchify -t reactify source/source.js -o destination.js -v```
-
-Keybase Migration pending...
